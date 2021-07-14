@@ -19,7 +19,7 @@ app.get("/sendSMS", (req, res) => {
     .create({
       messagingServiceSid: "MG25b746a751c44218e0b19f034ff204ab",
       to: "+971555144137",
-      body: "One last testc",
+      body: "One last test",
     })
     .then((message) => {
       console.log(`The SMS was sent!`);
